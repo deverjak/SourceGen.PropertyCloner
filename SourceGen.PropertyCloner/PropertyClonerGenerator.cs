@@ -161,7 +161,7 @@ namespace {classToGenerate.Namespace}
 {{
     public static class {classToGenerate.Name}Extensions
     {{
-        public static {classToGenerate.Name} Clone(this {classToGenerate.Name} instance)
+        public static {classToGenerate.Name} CloneProperties(this {classToGenerate.Name} instance)
         {{
             var clone = new {classToGenerate.Name}();
 {string.Join(Environment.NewLine, propertyAssignments)}
