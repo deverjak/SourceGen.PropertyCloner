@@ -11,10 +11,10 @@ A C# source generator that automatically generates clone methods for your classe
 
 ## Installation
 
-1. Add the PropertyCloner generator to your project:
+1. Add the PropertyCloner generator (locally) to your project:
 
 ```xml
-<PackageReference Include="PropertyCloner.Generator" Version="1.0.0" />
+<ProjectReference Include="..\SourceGen.PropertyCloner\SourceGen.PropertyCloner.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
 ```
 
 ## Usage
